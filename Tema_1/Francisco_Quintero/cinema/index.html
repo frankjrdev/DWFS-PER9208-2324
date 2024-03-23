@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema Openheimer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="row">
+      <section class="col-4 panel-left">
+        <img
+          src="https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg"
+          alt="cover"
+        />
+      </section>
+      <section class="panel-right col-8">
+        <!-- Date picker -->
+
+        <div class="datePicker">
+          <h2>March</h2>
+          <div class="datePicker__days">
+            <p class="datePicker_day"><</p>
+            <div>
+              <p class="datePicker_day">LUN</p>
+              <p class="datePicker_day">25</p>
+            </div>
+            <div>
+              <p class="datePicker_day">MAR</p>
+              <p class="datePicker_day">26</p>
+            </div>
+            <div>
+              <p class="datePicker_day">MIER</p>
+              <p class="datePicker_day">27</p>
+            </div>
+            <div>
+              <p class="datePicker_day--active">JUE</p>
+              <p class="datePicker_day--active">28</p>
+            </div>
+            <div>
+              <p class="datePicker_day">VIE</p>
+              <p class="datePicker_day">29</p>
+            </div>
+            <div>
+              <p class="datePicker_day">SAB</p>
+              <p class="datePicker_day">30</p>
+            </div>
+            <p class="datePicker_day">></p>
+          </div>
+
+          <hr />
+        </div>
+
+        <!-- Time picker -->
+        <div class="timePicker">
+          <h2>Time</h2>
+          <div class="timePicker__days">
+            <div>
+              <p class="timePicker_day">16:30</p>
+              <p class="timePicker_day">Sala 5</p>
+            </div>
+            <div>
+              <p class="timePicker_day">18:30</p>
+              <p class="timePicker_day">Sala 6(IMAX)</p>
+            </div>
+            <div>
+              <p class="timePicker_day">20:30</p>
+              <p class="timePicker_day">Sala 5</p>
+            </div>
+            <div>
+              <p class="timePicker_day--active">22:30</p>
+              <p class="timePicker_day--active">Sala 6(IMAX)</p>
+            </div>
+            <div>
+              <p class="timePicker_day">22:30</p>
+              <p class="timePicker_day">Sala 5</p>
+            </div>
+          </div>
+
+          <hr />
+        </div>
+
+        <div class="seats">
+          <div class="seats__counter">
+            <p>-</p>
+            <h3><span class="seats__counter--active">3</span> asientos</h3>
+            <p>+</p>
+          </div>
+          <hr />
+        </div>
+
+        <div class="seats">
+          <h4>SCREEN</h4>
+
+          <div class="seatsContainer">
+            <!-- Column 1 -->
+            <div class="seatsContainer--colum">
+              <div class="seatsContainer--row">
+                <span>A</span>
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <span>B</span>
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <span>C</span>
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" />
+                <input type="checkbox" />
+              </div>
+              <div class="seatsContainer--row">
+                <span>D</span>
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <span>E</span>
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <span>F</span>
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <span>G</span>
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" class="active" checked />
+                <input type="checkbox" class="active" checked />
+                <input type="checkbox" class="active" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <span>H</span>
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+              </div>
+              <div class="seatsContainer--row">
+                <span style="margin: 0 10px 0 0">I</span>
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+              </div>
+              <div class="seatsContainer--rowNumber">
+                <span
+                  class="column_number row1"
+                  style="margin: 0 10px 0 0"
+                ></span>
+                <p class="column_number row1">1</p>
+                <p class="column_number row1">2</p>
+                <p class="column_number row1">3</p>
+                <p class="column_number row1">4</p>
+                <p class="column_number row1">5</p>
+                <p class="column_number row1">6</p>
+                <p class="column_number row1">7</p>
+                <p class="column_number row1">8</p>
+                <p class="column_number row1">9</p>
+                <p class="column_number row1">10</p>
+                <p class="column_number row1">11</p>
+                <p class="column_number row1">12</p>
+              </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="seatsContainer--colum">
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+              </div>
+              <div class="seatsContainer--rowNumber">
+                <p class="column_number">12</p>
+                <p class="column_number">13</p>
+                <p class="column_number">14</p>
+                <p class="column_number">15</p>
+                <p class="column_number">16</p>
+                <p class="column_number">17</p>
+                <p class="column_number">18</p>
+                <p class="column_number">19</p>
+                <p class="column_number">20</p>
+                <p class="column_number">21</p>
+                <p class="column_number">22</p>
+                <p class="column_number">23</p>
+                <p class="column_number">24</p>
+              </div>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="seatsContainer--colum">
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" checked />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" chec />
+                <input type="checkbox" />
+              </div>
+              <div class="seatsContainer--row">
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+                <input type="checkbox" />
+              </div>
+              <div class="seatsContainer--rowNumber">
+                <p class="column_number row3">23</p>
+                <p class="column_number row3">24</p>
+                <p class="column_number row3">25</p>
+                <p class="column_number row3">26</p>
+                <p class="column_number row3">27</p>
+                <p class="column_number row3">28</p>
+                <p class="column_number row3">29</p>
+                <p class="column_number row3">30</p>
+                <p class="column_number row3">31</p>
+                <p class="column_number row3">32</p>
+                <p class="column_number row3">33</p>
+                <p class="column_number row3">34</p>
+                <p class="column_number row3">35</p>
+                <p class="column_number row3">36</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
