@@ -1,0 +1,178 @@
+body {
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 80px;
+    color: #ffffff;
+    background-color: rgb(0, 152, 205);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    width: 100%;
+    color: #ffffff;
+    background-color: rgb(0, 152, 205);
+}
+
+.footer__title{
+    text-align: center;
+}
+.footer__table{
+    margin: auto;
+}
+
+.table__label{
+    font-weight: bold;
+    width: 80px;
+}
+
+/* Style from Jose Alejandro's example */
+.cinema__screen {
+    background-color: #c7cbce;
+    border: 1px solid black;
+    border-top-width: 5px;
+    border-top-right-radius: .3em;
+    border-top-left-radius: .3em;
+    height: 50px;
+    margin: auto;
+    transform: perspective(15px) rotateX(-1deg);
+    width: 800px;
+}
+
+.screen__title {
+    text-align: center;
+}
+
+.cinema__seats{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.seats__row{
+    display: flex;
+    justify-content: center;
+}
+
+.row__id{
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.seat__front{
+    display: flex;
+}
+
+.row__seat, .row__seat--selected{
+    cursor: pointer;
+}
+
+.row__seat--occupied{
+    cursor: not-allowed;
+}
+
+.row__seat, .row__seat--selected, .row__seat--occupied{
+    height: 64px;
+    width: 64px;
+    margin: 5px
+
+}
+
+.seat__front{
+    height: 44px;
+}
+
+.seat__back{
+    height: 20px;
+    border: 1px solid black;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.seat__left-side{
+    margin-top: 15px;
+    width: 10px;
+    height: 28px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-top-left-radius: 5px;
+}
+
+.seat__right-side{
+    margin-top: 15px;
+    width: 10px;
+    height: 28px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-top-right-radius: 5px;
+}
+
+.seat__center{
+    line-height: 44px;
+    text-align: center;
+    width: 44px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.row__seat--selected > .seat__back{
+    background-color: #1c663b;
+}
+
+.row__seat--selected > .seat__front > .seat__right-side{
+    background-color: #1c663b;
+}
+
+.row__seat--selected > .seat__front > .seat__left-side{
+    background-color: #1c663b;
+}
+
+.row__seat--selected > .seat__front > .seat__center{
+    background-color: #1c663b;
+}
+
+.row__seat--occupied > .seat__back{
+    background-color: #6c757d;
+}
+
+.row__seat--occupied > .seat__front > .seat__right-side{
+    background-color: #6c757d;
+}
+
+.row__seat--occupied > .seat__front > .seat__left-side{
+    background-color: #6c757d;
+}
+
+.row__seat--occupied > .seat__front > .seat__center{
+    background-color: #6c757d;
+}
+
+.cinema__form{
+    text-align: center;
+}
+
+.cinema__form > div{
+    margin-bottom: 10px;
+}
+
+.form__input{
+    width: 40px
+}
+
+.form__button{
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    background-color: #5cb85c;
+    border-radius: 5px;
+}

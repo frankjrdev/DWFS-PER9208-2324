@@ -1,0 +1,220 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="app">
+    <header class="app__header bg-primary">
+      <div>UNIR Cinema</div>
+      <div class="header__profile">
+        <div class="profile__name">Alexandro</div>
+        <div class="profile__picture">A</div>
+      </div>
+    </header>
+    <main class="app__content-wrapper">
+      <div class="content-wrapper__content">
+        <div class="content__seat-identifiers">
+          <div class="seat-identifier">
+            <div class="seat-identifier__tag seat--available"></div>
+            <div class="identifier__label">Available</div>
+          </div>
+          <div class="seat-identifier">
+            <div class="seat-identifier__tag seat--unavailable"></div>
+            <div class="identifier__label">Unavailable</div>
+          </div>
+          <div class="seat-identifier">
+            <div class="seat-identifier__tag seat--selected"></div>
+            <div class="identifier__label">Selected</div>
+          </div>
+          <div class="seat-identifier">
+            <div class="seat-identifier__tag seat--vip"></div>
+            <div class="identifier__label">VIP</div>
+          </div>
+        </div>
+        <div class="content__screen bg-dark">Screen</div>
+        <div class="content__seats">
+          <div class="seats__row">
+            <div class="seat seat--unavailable">I1</div>
+            <div class="seat seat--unavailable">I2</div>
+            <div class="seat seat--unavailable">I3</div>
+            <div class="seat seat--unavailable">I4</div>
+            <div class="seat seat--unavailable">I5</div>
+            <div class="seat seat--unavailable">I6</div>
+            <div class="seat seat--unavailable">I7</div>
+            <div class="seat seat--unavailable">I8</div>
+            <div class="seat seat--unavailable">I9</div>
+          </div>
+          <div class="seats__row">
+            <div class="seat seat--unavailable">H1</div>
+            <div class="seat seat--unavailable">H2</div>
+            <div class="seat seat--unavailable">H3</div>
+            <div class="seat seat--unavailable">H4</div>
+            <div class="seat seat--unavailable">H5</div>
+            <div class="seat seat--unavailable">H6</div>
+            <div class="seat seat--unavailable">H7</div>
+            <div class="seat seat--unavailable">H8</div>
+            <div class="seat seat--unavailable">H9</div>
+          </div>
+          <div class="seats__row">
+            <div class="seat seat--unavailable">G1</div>
+            <div class="seat seat--unavailable">G2</div>
+            <div class="seat seat--unavailable">G3</div>
+            <div class="seat seat--unavailable">G4</div>
+            <div class="seat seat--unavailable">G5</div>
+            <div class="seat seat--unavailable">G6</div>
+            <div class="seat seat--unavailable">G7</div>
+            <div class="seat seat--unavailable">G8</div>
+            <div class="seat seat--unavailable">G9</div>
+          </div>
+          <div class="seats__row">
+            <div class="seat seat--unavailable">F1</div>
+            <div class="seat seat--unavailable">F2</div>
+            <div class="seat seat--unavailable">F3</div>
+            <div class="seat seat--unavailable">F4</div>
+            <div class="seat seat--unavailable">F5</div>
+            <div class="seat seat--unavailable">F6</div>
+            <div class="seat seat--unavailable">F7</div>
+            <div class="seat seat--unavailable">F8</div>
+            <div class="seat seat--unavailable">F9</div>
+          </div>
+          <div class="seats__row">
+            <div class="seat seat--available">E1</div>
+            <div class="seat seat--available">E2</div>
+            <div class="seat seat--unavailable">E3</div>
+            <div class="seat seat--unavailable">E4</div>
+            <div class="seat seat--unavailable">E5</div>
+            <div class="seat seat--unavailable">E6</div>
+            <div class="seat seat--available">E7</div>
+            <div class="seat seat--available">E8</div>
+            <div class="seat seat--available">E9</div>
+          </div>
+          <div class="seats__row">
+            <div class="seat seat--unavailable">D1</div>
+            <div class="seat seat--available">D2</div>
+            <div class="seat seat--unavailable">D3</div>
+            <div class="seat seat--unavailable">D4</div>
+            <div class="seat seat--unavailable">D5</div>
+            <div class="seat seat--available">D6</div>
+            <div class="seat seat--available">D7</div>
+            <div class="seat seat--available">D8</div>
+            <div class="seat seat--available">D9</div>
+          </div>
+          <div class="seats__row">
+            <div class="seat seat--available">C1</div>
+            <div class="seat seat--available">C2</div>
+            <div class="seat seat--available">C3</div>
+            <div class="seat seat--available">C4</div>
+            <div class="seat seat--available">C5</div>
+            <div class="seat seat--available">C6</div>
+            <div class="seat seat--available">C7</div>
+            <div class="seat seat--available">C8</div>
+            <div class="seat seat--available">C9</div>
+          </div>
+          <div class="seats__row">
+            <div class="seat seat--available">B1</div>
+            <div class="seat seat--available">B2</div>
+            <div class="seat seat--unavailable">B3</div>
+            <div class="seat seat--unavailable">B4</div>
+            <div class="seat seat--unavailable">B5</div>
+            <div class="seat seat--unavailable">B6</div>
+            <div class="seat seat--unavailable">B7</div>
+            <div class="seat seat--unavailable">B8</div>
+            <div class="seat seat--unavailable">B9</div>
+          </div>
+          <div class="seats__row">
+            <div class="seat seat--available">A1</div>
+            <div class="seat seat--available">A2</div>
+            <div class="seat seat--unavailable">A3</div>
+            <div class="seat seat--unavailable">A4</div>
+            <div class="seat seat--unavailable">A5</div>
+            <div class="seat seat--unavailable">A6</div>
+            <div class="seat seat--available">A7</div>
+            <div class="seat seat--available">A8</div>
+            <div class="seat seat--available">A9</div>
+          </div>
+        </div>
+        <div class="content__form-wrapper">
+          <form action="">
+            <input type="hidden" value="" name="selected-seats" />
+            <div class="form__field">
+              <label for="number-of-seats">Number of seats:</label>
+              <input
+                type="number"
+                name="number-of-seats"
+                value=""
+                onchange="handleNumberOfSeatsChange(event)"
+              />
+            </div>
+            <button class="btn btn-primary">Confirm and continue</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="app__footer bg-dark">
+      <div class="footer__group">
+        <div class="footer__group-name">Information</div>
+        <div class="footer__group-content">
+          <div>UNIR Cinema</div>
+          <div>Calle de la Paz, 137. Logroño</div>
+        </div>
+      </div>
+      <div class="footer__group">
+        <div class="footer__group-name">Contact</div>
+        <div class="footer__group-content">
+          <div>941204793</div>
+          <div>cinefullstack@unircinema.com</div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const cinemaSize = 9;
+      window.handleNumberOfSeatsChange = (e) => {
+        const numberOfSeats = parseInt(e.target.value);
+        if (!(numberOfSeats > 0)) return;
+        const seatsMatrix = setup(cinemaSize);
+        seatsMatrix[4][0].available = true;
+        seatsMatrix[4][1].available = true;
+        seatsMatrix[4][6].available = true;
+        seatsMatrix[4][7].available = true;
+        seatsMatrix[4][8].available = true;
+        seatsMatrix[5][1].available = true;
+        seatsMatrix[5][5].available = true;
+        seatsMatrix[5][6].available = true;
+        seatsMatrix[5][7].available = true;
+        seatsMatrix[5][8].available = true;
+        seatsMatrix[6][0].available = true;
+        seatsMatrix[6][1].available = true;
+        seatsMatrix[6][2].available = true;
+        seatsMatrix[6][3].available = true;
+        seatsMatrix[6][4].available = true;
+        seatsMatrix[6][5].available = true;
+        seatsMatrix[6][6].available = true;
+        seatsMatrix[6][7].available = true;
+        seatsMatrix[6][8].available = true;
+        seatsMatrix[7][0].available = true;
+        seatsMatrix[7][1].available = true;
+        seatsMatrix[8][0].available = true;
+        seatsMatrix[8][1].available = true;
+        seatsMatrix[8][6].available = true;
+        seatsMatrix[8][7].available = true;
+        seatsMatrix[8][8].available = true;
+        const suggestion = window.suggest(seatsMatrix, numberOfSeats);
+        console.log({ numberOfSeats, seatsMatrix, suggestion });
+      };
+    </script>
+    <script src="./cinema.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

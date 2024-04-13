@@ -1,0 +1,48 @@
+#Cabecera{
+    background-color: #0376f9;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 5px;
+}
+
+#Cabecera-imagen{
+    margin-top: 1%;
+}
+
+#Cuerpo{
+    border-color: #0376f9;
+    width: 100%;
+}
+
+#Cuerpo>div{
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0376f9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    
+}
+
+h3{
+    color:#0376f9;
+}
+
+#Cabecera-profesion{
+    font-family: Verdana;
+    font-size: 20px;
+    color:white;
+    
+    
+}
+
+#Cabecera-nombre{
+    color:white;
+    margin: 0px;
+}
+

@@ -1,0 +1,119 @@
+* {
+    padding: 5;
+
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+td {
+    text-align: center;
+}
+
+ul{
+    text-align: start;
+}
+
+.container-table {
+    width: 40%;
+    color: white;
+    margin: auto;
+    color: #c1c8ca;
+}
+
+.table-data-personal {
+    display: block;
+    background-color: #486166;
+    padding-bottom: 200%;
+}
+
+.data-foto-perfil{
+    padding-top: 2%;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+
+.data-personal-header{
+    text-align: start;
+    padding-left: 1%;
+    font-weight: bold;
+    margin: 0;
+} 
+
+.data-contacto-container{
+    display: flex;
+}
+
+.data-contacto-container > img {
+    padding-top: 7%;
+    padding-left: 2%;
+    width: 20px;
+    height: 20px;
+}
+
+.data-contacto-container > p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.data-personal-line{
+    background-color: white;
+    height: 1px;
+    width: 95%;
+
+}
+
+
+.table-data-experiencia {
+    background-color: #F8F8F8;
+}
+
+.data-experiencia-line-header{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 10%;
+}
+
+.table-data-experiencia > h1{ 
+    color: #486166;
+}
+
+.data-experiencia-line{
+    width: 80%;
+    background-color: black;
+    margin-top: 10%;
+}
+
+.data-experiencia-header{
+    text-align: start;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+} 
+
+.table-data-experiencia > p, .table-experiencia, .data-experiencia-formacion,h1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    color:black;
+    text-align: justify;
+}
+
+.table-experiencia-data > td {
+    text-align: start;
+}
+
+.data-experiencia-formacion {
+    margin-top: 3%;
+}
+
+.data-experiencia-formacion > p {
+    margin-bottom: 0;
+    margin-top: 1%;
+}

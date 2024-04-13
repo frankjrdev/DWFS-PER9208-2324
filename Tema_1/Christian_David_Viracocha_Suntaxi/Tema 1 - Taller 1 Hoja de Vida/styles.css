@@ -1,0 +1,54 @@
+.item__MainTitle{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+.infoArticle_titleSecondary{
+    font-size: 30px;
+    color: black;
+    text-align: Left;
+}
+
+.mainSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.informationSection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.informationSection__infoArticle {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 25px;
+    align-items: center;
+}
+
+.informationSection_table{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 25px;
+    align-items: left;
+    text-align: left;
+}
+
+.item__Image{
+    width: 250px;
+    left: 250px;
+}
+
+
+table{
+    width:100%;
+}

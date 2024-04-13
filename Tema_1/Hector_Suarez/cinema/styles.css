@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(209 213 219);
+}
+
+.container {
+    border-color: rgb(253 186 116);
+}
+
+.header {
+    background-color: rgb(31 41 55);
+    color: white;
+    height: 10rem;
+}
+
+.footer {
+    background-color: rgb(31 41 55);
+    color: white;
+}
+
+.display {
+    background-color: rgb(107 114 128);
+    height: 9rem;
+}
+
+.options {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: rgb(251 191 36);
+    background-color: black;
+}
+
+.options .row .col ~ .col {
+    border: solid rgb(251 191 36) 1px;
+    margin: .3rem;
+    height: 50px;
+}

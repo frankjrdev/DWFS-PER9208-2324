@@ -1,0 +1,64 @@
+.app {
+  background-color: rgb(255, 160, 77);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  min-width: 200px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.main__button {
+  background-color: rgb(255, 61, 61);
+  color: white;
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  position: relative;
+  font-weight: 700;
+  border-right: 8px solid rgb(234, 0, 0);
+  border-bottom: 8px solid rgb(180, 0, 0);
+  border-left: 4px solid rgb(234, 0, 0);
+}
+
+.main__button:active {
+  background-color: rgb(255, 80, 80);
+  border-right: 4px solid rgb(234, 0, 0);
+  border-bottom: 4px solid rgb(180, 0, 0);
+  border-left: 4px solid rgb(234, 0, 0);
+}
+
+.main__button--spinner {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+}
+
+.main__result {
+  color: rgb(51, 51, 51);
+  padding: 0 16px;
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  font-weight: 700;
+}
+
+.main__button--loading .main__button-text {
+  opacity: 0;
+}
+.main__button--loading .main__button--spinner {
+  display: flex;
+  scale: 0.75;
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos contenido o section principal*/
+main{
+    margin: 16px auto;/*centrado horizontal*/
+    width: 55%;
+    border: 1px solid #aaaaaa;
+    display: flex;/*para dividir el contenido en 2 sections*/
+    box-shadow: 4px 4px 2px #dfe2e2;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Estilo/formato de los titulos*/
+main h3{
+    
+    color: #37649e;
+    font-size:larger;
+    font-weight: lighter;
+}
+
+/*columna o section izquierda*/
+main aside{
+    background-color: #eff1f3;
+    width: 30%;
+    min-height: 768px;
+    display: flex;/*dividir el contenido en 2 columnas*/
+}
+
+.left-side{
+    padding: 16px;
+}
+
+
+/*Lazo azul lado izquierdo*/
+.left-ribbon{
+    background-color: #37649e;
+    height: 100%;
+    width: 48px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    float: left;
+}
+
+/*posicionamiento centrado de la foto*/
+.person-photo{
+    margin: auto;
+    display: block;
+    left: 50%;
+}
+
+/*Titulos o encabezados*/
+.title-box{
+    margin-top: 16px;
+    border-bottom: 1px solid #a4a4a5;
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+/*formato o estilos para las celdas de la tabla de datos personales*/
+td{
+    padding: 8px 0;
+}
+/*color y tamanyo de los iconos*/
+td span{
+    color: #37649e;
+    font-size: 2em;
+}
+
+.ratings-icons{
+    
+    color: orange;
+}
+
+
+
+
+/*columna o section derecha*/
+main section{
+    padding: 16px;
+    width: 70%;
+    min-height: 768px;
+}
+
+.profile{
+    margin-top: 16px;
+}
+
+/*Estilos para la section de educacion y de experiencia o historia de trabajos*/
+.subject{
+    margin-top: 16px;
+    font-weight: bolder;
+    display: flex;
+}
+
+.subject-name{
+    width: 70%;
+}
+
+.subject-period{
+    align-self: flex-end;
+    width: 30%;
+    text-align: right;
+}
+
+.entity-name{
+    color: #37649e;
+}
+
+.job-items{
+    padding: 16px;
+}

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIR-CINEMA - Reserva de butacas</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>UNIR-CINEMA</h1>
+        <p>Tu cine favorito en Zipaquirá</p>
+    </header>
+    <main>
+        
+        
+        <section class="resumen-reserva">
+            <h2>Selecciona tus asientos</h2>
+            <br>
+            <div>
+                <ul class="nostyle butaca_tipos">
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                        </div>
+                        <span class="butaca_numero" aria-label="undefinedundefined"></span>
+                        <span class="text">Disponible</span>
+                    </li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                        </div>
+                        <span class="butaca_numero" aria-label="undefinedundefined"></span>
+                        <span class="text">Ocupado</span>
+                    </li>
+            
+                </ul>
+            </div>
+        </section>
+
+        <h2>Pantalla</h2>
+        <section class="pantalla-cine">
+            <div id="mapa-pantalla"></div>
+        </section>
+
+        <section>
+            <div class="container_section">
+                <ul class="nostyle butaca_columna">
+                    
+                    <li class="butaca butaca_letra">A</li>
+                    <li class="butaca"></li>
+                    <li class="butaca"></li>
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">12</span>
+                        </div>
+                    </li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">11</span>
+                        </div>
+                    </li>
+
+                    
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">10</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">9</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">8</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">7</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">6</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">5</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">4</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">1</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="nostyle butaca_columna">
+                    <li class="butaca butaca_letra">B</li>
+                    <li class="butaca"></li>
+                    <li class="butaca"></li>
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">12</span>
+                        </div>
+                    </li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">11</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">10</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">9</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">8</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">7</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">6</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">5</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">4</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">1</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="nostyle butaca_columna">
+                    <li class="butaca butaca_letra">C</li>
+                    <li class="butaca"></li>
+                    <li class="butaca"></li>
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">12</span>
+                        </div>
+                    </li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">11</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">10</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">9</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">8</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">7</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">6</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">5</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">4</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">1</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="nostyle butaca_columna">
+                    <li class="butaca butaca_letra">D</li>
+                    <li class="butaca"></li>
+                    <li class="butaca"></li>
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">12</span>
+                        </div>
+                    </li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">11</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">10</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">9</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">8</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">7</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">6</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">5</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">4</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">1</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="nostyle butaca_columna">
+                    <li class="butaca butaca_letra">D</li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">16</span>
+                        </div>
+                    </li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">15</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">14</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">13</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">12</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">11</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">10</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">9</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">8</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">7</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">6</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">5</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">4</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">2</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">1</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="nostyle butaca_columna">
+                    <li class="butaca butaca_letra">E</li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">16</span>
+                        </div>
+                    </li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">15</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">14</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">13</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">12</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">11</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">10</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">9</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">8</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">7</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">6</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">5</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">4</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">2</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">1</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="nostyle butaca_columna">
+                    <li class="butaca butaca_letra">F</li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">16</span>
+                        </div>
+                    </li>
+                    
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">15</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">14</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">13</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">12</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">11</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">10</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca gray">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">9</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">8</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">7</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">6</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">5</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">4</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">3</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">2</span>
+                        </div>
+                    </li>
+
+                    <li class="butaca">
+                        <div class="estado-butaca green">
+                            <img class="icono-butaca" src="img/butaca-cinema.svg" alt="butaca_selection">
+                            <span class="butaca_numero" aria-label="A12">1</span>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+
+        <section class="seleccion-asientos">
+            
+            <p class="text">Indica cuántos asientos deseas reservar.</p>
+            <form action="">
+                <input class="quantity_reserve" type="number" name="quantity_reserve">
+            </form>
+            <br>
+            <button id="seleccionar-asientos-btn">Confirmar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 UNIR-CINEMA</p>
+        <ul>
+            <li>Dirección: Calle 10 # 12-34, Zipaquirá, Cundinamarca</li>
+            <li>Teléfono: (+57) 1 234 5678</li>
+            <li>Correo electrónico: contacto@unircinema.com</li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

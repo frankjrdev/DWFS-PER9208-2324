@@ -1,0 +1,27 @@
+.encabezado{
+    background-color: #4c6f82 ;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin:10px;
+    padding: 5px;
+}
+
+div{
+    border:1px solid #2c414d;
+    margin: 5px;
+    background-color: rgb(248, 245, 240);
+}
+
+h2{
+    color: #4c6f82 ;
+    margin: 5px;
+}
+
+p{
+    font-style: italic;
+}
+
+.resumen{
+    font-style: normal;
+}

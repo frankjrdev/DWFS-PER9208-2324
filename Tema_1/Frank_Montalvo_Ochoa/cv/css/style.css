@@ -1,0 +1,113 @@
+html {
+    font-size: 12px;
+    line-height: 1.4em;
+    font-family: PressStart;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(166, 204, 241);
+}
+
+
+img {
+    max-width: 100%;
+}
+
+dl {
+    margin: 1.4em 2.4em;
+}
+
+dt {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+a {
+    cursor: pointer;
+    color: #0B41A3;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    max-width: 1000px;
+    max-height: 500px;
+    position: relative;
+    border-radius: 2em;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    background-color: #F9F5FF;
+    box-shadow: 0.1em 0.1em 0.7em #292929;
+}
+
+.content{
+    max-width: 100%;
+    display: inline-block;
+    font-size: 1em;
+    position: absolute;
+  }
+  
+  .profile{
+    top: 0;
+    width: 100%;
+    max-width: 27%;
+    /* background-color: cyan; */
+    font-size: 1em;
+    position: sticky;
+    display: inline-block;  
+  }
+  
+  .profile-data{
+    margin-left: 0.5em;
+    display: inline-block;
+  
+  }
+  
+  .title{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .subtitle{
+    font-size: 1.8em;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #DE1818;
+  }
+  
+  .header-title{
+    font-size: 1.4em;
+    margin-top: 2em;
+    margin-left: 0.5em;
+  }
+  
+  .paragraph{
+    text-align: justify;
+    margin: 1.4em 2.4em;
+  }
+  
+  .photo{
+    float: left;
+    height: 180px;
+    border-radius: 10%;
+    margin: 2em 3em 2em 1em;
+  }
+  

@@ -1,0 +1,64 @@
+
+.screen_movie {
+    height: 100px;
+    width: 800px;
+    background-color: #d9d9d9;
+    border: 5px solid gray;
+    transform: perspective(10px) rotateX(-1deg);
+    border-radius: 15px;
+    margin-left: 21%;
+}
+
+.cinema_seat > img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cinema_seat[type="occupied"] > img {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.cinema_seat[type="available"] > img {
+    background-color: greenyellow;
+}
+
+.container_squares {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.green-square, .gray-square {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 5%;
+}
+.green-square {
+    background-color: green;
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.gray-square {
+    background-color: gray;
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.text-right {
+    text-align: right;
+}

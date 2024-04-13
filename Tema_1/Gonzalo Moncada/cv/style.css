@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nombre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,'Yellowtail', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px !important;
+}
+.centrado{
+    text-align: center;
+    color: #dfe2e2;
+    box-shadow: 4px 4px 2px #dfe2e2;
+    border-radius: 8px;
+    margin: 16px auto;/*centrado horizontal*/
+    width: 55%;
+    border: 2px solid #aaaaaa;
+    background-color: #37649e;
+}
+
+main{
+    margin: 16px auto;/*centrado horizontal*/
+    width: 55%;
+    border: 2px solid #aaaaaa;
+    display: flex;
+    /* box-shadow: 4px 4px 2px #dfe2e2;
+    border-radius: 8px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main h3{
+    
+    color: #37649e;
+    font-size:larger;
+    font-weight: lighter;
+}
+main aside{
+    background-color: #eff1f3;
+    width: 40%;
+    min-height: 768px;
+    display: flex;
+}
+.left-side{
+    padding: 16px;
+}
+.left-ribbon{
+    background-color: #37649e;
+    height: 100%;
+    width: 48px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    float: left;
+}
+.fotoclass{
+    margin: auto;
+    display: block;
+    left: 50%;
+   
+}
+.title-box{
+    margin-top: 16px;
+    border-bottom: 1px solid #a4a4a5;
+    padding: 10px 0;
+    width: 100%;
+}
+main section{
+    padding: 16px;
+    width: 60%;
+    min-height: 768px;
+}

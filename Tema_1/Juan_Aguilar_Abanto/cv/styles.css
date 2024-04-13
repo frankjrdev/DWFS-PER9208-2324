@@ -1,0 +1,62 @@
+html
+{
+    font-family:  Tahoma, Verdana, sans-serif, arial;
+}
+
+.div__central {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.div__secciones {
+    border-color: rgb(241, 236, 236);
+    margin: 5px;
+    border-style:solid;
+    font-family: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgba(26, 75, 188, 0.759);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.div__secciones-principal {
+    background-color: rgb(39, 123, 197);
+    border-color: rgb(241, 236, 236);
+    margin: 10px;
+    border-style:solid;
+    height: 430px;
+    font-family:  Tahoma, Verdana, sans-serif, arial;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.foto {
+    height: 350px;
+    width: 100%;
+    margin: 5px;
+    object-fit: cover;
+    background-image: url("../cv/images/OIP.jpg") ;
+}
+
+.div__secciones-descripcion
+{
+    color: white;
+    height: 50px;
+}
+
+.div__secciones-foto
+{
+    width: 40%;
+    height: 400px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

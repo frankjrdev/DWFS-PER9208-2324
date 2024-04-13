@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.info-contacto {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info-contacto span {
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+img {
+    width: 80px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}

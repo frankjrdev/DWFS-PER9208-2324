@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #030045;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 30%;
+    overflow: hidden;
+    color: white;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+    font-size: 24px;
+    color: #fff;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.profession {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #030045;
+    border-bottom: 2px solid #030045;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.section p, .section li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: justify;
+    list-style-type: disclosure-open;
+    margin-left: 20px;
+}

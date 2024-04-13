@@ -1,0 +1,27 @@
+.encabezado{
+    display: flex;
+    background-color: #3388FF;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    flex-direction: column;
+}
+.encabezado__foto{
+    width: 200px;
+    height: 200px;
+}
+.encabezado__nombre, .encabezado__titulo{
+    color: white;
+}
+.resumen__texto, .experencia__texto, .contacto__texto, .eduacion__texto, .experencia__texto{
+    color: blue;
+}
+.textoNegrita{
+    font-weight: bold;
+}
+section{
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,42 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+}
+
+.cv__summary {
+    background: rgb(203 213 225);
+    border-start-start-radius: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    width: 30%;
+}
+
+.cv__data {
+    background-color: rgb(241 245 249);
+    border-end-end-radius: 1.5rem;
+    padding-left: .3rem;
+    width: 40%;
+}
+
+.summary__photo {
+    width: 30%;
+}
+
+.summary__title {
+    color: rgb(24 69 132);
+    font-size: 1.9rem;
+}
+
+.summary__subtitle {
+    color: rgb(71, 83, 100);
+    margin-top: 2.5rem;
+}

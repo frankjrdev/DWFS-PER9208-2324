@@ -1,0 +1,157 @@
+html
+{
+    background-color: black;    
+}
+
+body
+{
+    margin: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+  
+   
+}
+
+.contenedor
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    padding: 25px;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: rgb(80, 78, 78);
+    width: 90%;
+    margin-bottom: 40px;
+    margin-top: 8px;
+    border-radius: 5px;
+    
+}
+h1
+{
+    color: white;
+    text-align: center;
+   font-size: 40px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.print
+{
+    height: 300px;
+    width: 90%;
+    background-color: #1e1d1f;
+    border-radius: 5px;
+}
+
+.main
+{
+    margin-top: 40px;
+    height: 300px;
+    
+}
+
+table
+{
+    border-spacing: 10px;
+    height: 100%;
+    color: white;
+}
+
+th 
+{
+
+    color: yellow;
+    padding-right: 15px;
+}
+
+
+td
+{
+    border:1px solid yellow;
+    width: 50px;
+    margin: 5px 15px 15px 5px;
+}
+
+td:active
+{
+    background-color: #78b110;
+}
+
+
+
+.ocupado
+{
+    background-color: yellow;
+}
+
+
+
+
+form
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+form label{
+
+    color: yellow;
+
+}
+form input
+{
+    padding: 10px;
+    border-radius: 9px;
+    text-align: center;
+   
+}
+
+button
+{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 4px; 
+    color: white;
+    font-family: "Telex", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lbltitle
+{
+    margin: 8px;
+}
+
+footer
+{
+    color: white;
+    height: 280px;
+    width: 90%;
+    background-color: #414042;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+footer section
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 40px;
+}
+
+footer section div
+{
+    margin: 5px;
+}

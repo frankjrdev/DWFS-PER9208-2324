@@ -1,0 +1,133 @@
+*{
+    margin: 0;    
+    color: white;
+    font-family: Arial;
+    box-sizing:border-box; /*box-sizing: establece como se calcula el ancho y alto total de un elemento caja. border box para que se el width y height sea el que se disponga y que el padding y border no altere el tamaño sino sean parte ... ref. https://dev.to/lupitacode/que-es-el-box-sizing-en-css-2pi9*/
+}
+body{
+    width: 100%;
+    background-color:#1F1F1F;
+}
+table{
+    position: relative;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: auto;
+}
+label{
+    color: #FFD700;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.contenedor_prin{
+    background-color: black;
+    margin: auto;
+    width:50%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.contenedor2{
+    background-color: black;
+    margin: auto;
+    width:98%;
+    height: 98%;
+    position: relative;    
+    border: 1px #FFD700 solid; 
+}
+.cuadro_titulo{
+    background-color:#0077C0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    height: 80px;
+    margin: 10px;
+    padding: 20px;
+}
+.cuadro_estado{
+    background-color:#191919;
+    font-size: 12px;    
+    font-weight: bold;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+
+}
+.cuadro_pantalla{
+    background-color: #E6E6E6;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    width: 350px;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+}
+.asientos{
+    background-color: black;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    height: 200px;
+    margin: auto;
+    padding: 25px;
+}
+.col_filas{
+    font-size: 10px; 
+    color: #FFD700;
+    width: 33px;
+    height: 25px;
+}
+.disponibles{
+    width: 30px;
+    height: 25px;
+    background-color: #848484;
+}
+.reservados{
+    width: 30px;
+    height: 25px;
+    background-color: #0095D7;
+}
+.form_asientos{ /*formulario para ingreso de asientos a reservar*/
+    background-color: #191919;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    height: 120px;
+    margin: 10px;
+    padding: 15px;
+}
+
+#nro_asientos{ /*para campo de ingreso de nro asientos deseados */
+    border-radius: 5px;    ;
+    color: black;
+    width: 70px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+}
+.boton{ /*boton para confirmar reserva*/
+    background-color: #FFD700;
+    border-radius: 15px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 15px;
+    bottom: 15px;
+}
+.disponibles:hover{
+    background-color: #FFD700; /*resalta Amarillo cuando se pasa el mouse por encima de los asientos (recuadros)*/
+}
+footer{
+    background-color: #202020;
+    font-size: 12px;
+    text-align: center;
+    height: 140px;
+    margin: 10px;
+    padding: 10px;
+}

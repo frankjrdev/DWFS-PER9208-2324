@@ -1,0 +1,99 @@
+*{
+    margin: 0;    
+    font-family: Arial;
+    box-sizing:border-box; /*box-sizing: establece como se calcula el ancho y alto total de un elemento caja. border box para que se el width y height sea el que se disponga y que el padding y border no altere el tamaño sino sean parte ... ref. https://dev.to/lupitacode/que-es-el-box-sizing-en-css-2pi9*/
+}
+body{
+    width: 100%;
+    background-color:#FFFFFF;
+}
+.contenedor_prin{
+    background-color: #FFFFFF;
+    width:75%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.contenedor2{
+    background-color: #FFFFFF;
+    margin: auto;
+    width:98%;
+    height: 98%;
+    position: relative;    
+    border: 2px black solid; 
+}
+.encabezado{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 80%;
+    width:98%;
+    margin: 10px;
+    padding: 20px;
+}
+.foto{
+    border-radius: 50%;
+    border: 4px #FFD24A solid; 
+}
+.titulo_nombre{
+    color: #FFD24A;
+    font-size: 40px;
+    font-family: Segoe, "Segoe UI";
+}
+.titulo_profesion{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.titulo_seccion{
+    background-color: black;
+    font-family: Segoe, "Segoe UI";
+    width:98%;
+    color: #FFD24A;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+.contenido_seccion{
+    background-color: white;
+    font-family: Arial;
+    width:98%;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px black solid;
+}
+.titulo_celda{
+    background-color: #FFD24A;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    font-size: 15px;
+}
+.contenido_celda{
+    background-color: white;
+    color: black;
+    text-align: justify;
+    font-size: 15px;
+}
+.li_subtitulo{
+    color: black;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 15px;
+}
+#subtitulo{
+    color: black;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 15px;
+}

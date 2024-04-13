@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris Joke Teller</title>
+</head>
+<body>
+    <div class="app">
+        <div class="app_header" />
+        <div class="app_content">
+            <button class="button" onclick="tellMeAJoke()">Tell me a joke</button>
+            <p id="jokeOutput" class="output-container"></p>
+        </div>
+        <div class="app_footer" />
+    </div>
+</body>
+
+<script>
+    const apiUrl = "https://api.chucknorris.io/jokes/random";
+    function tellMeAJoke(){
+        fetch(apiUrl)
+            .then(response => {
+                if(!response.ok){
+                    throw new Error("Chuck does not want to work");
+                }
+                return response.json();
+            })
+            .then(data => {
+                const jokeOutput = document.getElementById('jokeOutput');
+                jokeOutput.innerText = JSON.stringify(data.value)
+                if (jokeOutput.innerText) jokeOutput.style.display = "block"
+            })
+            .catch(error => {
+                console.error("You got an error, not chuck", error)
+            });
+    }
+</script>
+</html>

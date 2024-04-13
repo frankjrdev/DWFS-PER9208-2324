@@ -1,0 +1,84 @@
+*{
+    box-sizing: 0px;
+    
+}
+.header{
+    display: flex;
+    background-color: rgb(85, 175, 218);
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    flex-direction: column;
+    padding: 25px;
+    margin: 5px;
+    overflow: hidden;
+}
+.header img{
+
+    background-color: white;
+    margin: 5px;
+    
+}
+h2{
+    margin: 8px;
+    color: blue;
+}
+
+.contacto{
+
+    border:1px solid rgb(97, 97, 99);
+    margin: 5px;
+    background-color: rgb(248, 245, 240);
+}
+.contacto h2 {
+
+    margin-left: 15px;
+}
+
+.contacto span{
+
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.contacto p{
+    margin-left: 15px;
+}
+.perfil{
+
+    border:1px solid rgb(97, 97, 99);
+    margin: 5px;
+    background-color: rgb(248, 245, 240);
+    
+}
+.perfil p {
+
+    margin-left: 15px;
+}
+.experiencia
+{
+    border:1px solid rgb(97, 97, 99);
+    margin: 5px;
+    background-color: rgb(248, 245, 240);
+
+}
+
+.experiencia h3{
+
+    margin-left: 15px;
+}
+
+.experiencia p{
+    margin-left: 15px;
+}
+.educacion{
+    border:1px solid rgb(97, 97, 99);
+    margin: 5px;
+    background-color: rgb(248, 245, 240);
+
+}
+.habilidades{
+    border:1px solid rgb(97, 97, 99);
+    margin: 5px;
+    background-color: rgb(248, 245, 240);
+}

@@ -1,0 +1,102 @@
+.body {
+  background: black;
+  margin: 10px;
+}
+
+header {
+  color: white;
+  background-color: #343a40;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.segundo_encabezado {
+  height: 25vh;
+  background-color: #333333;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.grilla_asientos {
+  margin: 20px;
+}
+
+.grilla_asientos_asientos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.asientos__nombrefilaasiento {
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  line-height: 40px;
+  color: yellow;
+  font-weight: bold;
+}
+
+.asientos_asiento {
+  border: 1px solid #ffd701;
+  width: 3em;
+  height: 3em;
+  margin: 5px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.asientos_asiento:hover {
+  background-color: yellow;
+  border: none;
+}
+
+.asiento_ocupado {
+  background-color: yellow;
+  border: none;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.formulario > p {
+  color: yellow;
+}
+
+.formulario input {
+  width: 10%;
+  height: 2.5em;
+  border-radius: 7px;
+  border: none;
+  text-align: center;
+}
+
+.formulario_boton_reservar {
+  background-color: yellow;
+  font-weight: bold;
+  width: 17%;
+  height: 2.5em;
+  border-radius: 7px;
+  margin: 10px;
+  border: none;
+}
+
+footer {
+  background-color: #343a40;
+  height: 15vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  text-align: center;
+}
